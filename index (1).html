@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Vitual</title>
+</head>
+<body>
+    <!-- Estrutura da pagina-->
+    <!-- Aula do dia 06/10/2026-->
+    <div id="page">
+        <!--Inicio do cabeçalho--> <!--Div é uma divisão de paginas-->
+        <header>
+           <!-- linha01, logo, pesquisa, icones-->
+           <div class="rows">
+           <!--logo-->
+           <div id="logo">logo</div>
+           <!--pesquisa-->
+           <div id="search">
+            <form action="#" method="get">
+                <label for="txtsearch">Pesquisa:</label>
+                <input type="search" id="txtsearch" name="txtsearch">
+                <input type="submit" value="pesquisar">
+            </form>
+           </div>
+           <!--icones-->
+           <div id="icons">
+            <nav id="nav-icons">
+                <ul>
+                    <li><a href="">fav</a></li>
+                    <li><a href="">car</a></li>
+                    <li><a href="">user</a></li>
+                </ul>
+           </nav>
+           </div>
+           </div>
+           <!--Fim da linha01-->
+
+           <!-- linha02 do 'menu' -->
+            <div class="rows">
+                <nav id="main-menu">
+                    <ul>
+                        <li>home</li>
+                        <li>categoria 01
+                            <ul>
+                                <li>sub-categoria 01
+                                    <ul>
+                                        <li>produto 01
+                                            <ul>
+                                                <li>produto 01</li>
+                                                <li>produto 02</li>
+                                                <li>produto 03</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                        <li>sub-categoria 02
+                            <ul>
+                                <li>produtos 01
+                                    <ul>
+                                        <li>produto 01</li>
+                                        <li>produto 02</li>
+                                        <li>produto 03</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                            </ul>
+                        </li>
+                    </ul>                       
+                </nav>
+            </div>
+
+        </header>
+        <main>
+            <!--inicio da linha 01 'banner'-->
+            <div class="rows">Banner</div>
+            <!--fim da linha 01-->
+
+            <!--Inicio da linha 02 'slider de 4 produtos'-->
+            <div class="rows">
+                <!--
+                div.sliders*4 depois aperta o enter
+                ele vai replicar 4x a <div class="sliders"></div>
+                -->
+                <div class="sliders">slider1</div>
+                <div class="sliders">slider2</div>
+                <div class="sliders">slider3</div>
+                <div class="sliders">slider4</div>
+            </div>
+            <!--fim da linha 02-->
+
+            <!--inicio da linha 03 'banner promocional'-->
+            <div class="rows">banner promocional</div>
+            <!--fim da linha 03-->
+
+            <!--inicio da linha 04-->
+            <div class="rows">texto e img</div>
+            <!--fim da linha 04-->
+
+            <!--inicio da linha 05-->
+            <div class="rows">img e texto</div>
+            <!--fim da linha 05-->
+        </main>
+        <!-- fim do corpo-->
+
+        <!--inicio do rodape-->
+        <footer>
+        <!--Fim do rodape-->
+        </footer>
+    </div>
+
+<!-- Folha de Estilo-->
+<!--Inicio-->
+    <style>
+        /* configurando a tag 'body' */
+        body{
+            background-color: burlywood;
+        }
+        /* configurqando o 'ID' do html */
+        #page{
+            background-color: blue;
+        }
+        /* configurando o 'CLASS' do html */
+        .sliders{
+            background-color: green;
+        }
+    </style>
+
+<!--fim-->
+
+
+</body>
+</html>
